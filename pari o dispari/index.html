@@ -19,7 +19,7 @@
           <h1>Scegli pari o dispari</h1>
         </div>
         <div class="col-12 input">
-          <form>
+          <form onsubmit="pariDispari()">
             <input type="radio" id="pari" name="pari_dispari" value="pari" />
             <label for="pari">pari</label><br />
             <input type="radio"id="dispari"name="pari_dispari"value="dispari"/>
@@ -27,10 +27,11 @@
             <input type="number" id="numero" name="numero" min="1" max="5" />
             <label for="numero">Scegli un numero</label><br />
             <input type="submit" id=""/>
+            <p id="demo"></p>
           </form>
         </div>
-        <div class="row">
-            <div class="col-12 text-center" id="numero"></div>z
+        <div class="row"> 
+            <div class="col-12 text-center" id="numero"></div>
         </div>
       </div>
       <script src="myscript.js"></script>

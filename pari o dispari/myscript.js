@@ -1,4 +1,3 @@
-function casuale() {
-    num = Math.round(Math.random() * 100);
-    document.getElementById("casuale").innerHTML ="Numero casuale " + num;
+function pariDispari(){
+    document.getElementById("demo").innerHTML =Math.floor(Math.random() * 5) + 1;
 }
